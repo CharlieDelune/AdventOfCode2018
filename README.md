@@ -8,4 +8,6 @@ Day 3: Fabric Squares
 
 Day 4: Repose Record
 
-Day 5: 
+Day 5: Alchemical Reduction
+
+Day 6: Chronal Coordinates
