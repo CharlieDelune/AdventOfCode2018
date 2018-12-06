@@ -22,7 +22,6 @@ public class FabricSquares {
 		try {
 		    String line;
 			BufferedReader br = new BufferedReader(new FileReader(file));
-			line = br.readLine();
 		    while ((line = br.readLine()) != null) {
 		    	//For each line, convert line items to rectangle object
 		    	Rectangle rect = new Rectangle(line);
