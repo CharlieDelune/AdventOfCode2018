@@ -1,4 +1,5 @@
 package src;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -13,7 +14,7 @@ public class FrequencyShifter {
 		ArrayList<Integer> intList = new ArrayList<Integer>();
 		//Add 0 because the frequency begins on 0
 		intList.add(0);
-		File file = new File("Day1/data/input.txt");
+		File file = new File("data/inputDay1.txt");
 		try { 
 		    String line;
 		    boolean notYetFound = true;

@@ -9,7 +9,7 @@ public class ChecksumFinder {
 	public static void main(String[] args) {
 		//Find input file, instantiate variables to hold
 		//nums of twice and thrice repeated characters
-		File file = new File("Day2/data/input.txt");
+		File file = new File("data/inputDay2.txt");
 		int twos = 0;
 		int threes = 0;
 		try {

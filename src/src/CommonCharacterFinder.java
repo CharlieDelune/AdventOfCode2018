@@ -9,7 +9,7 @@ public class CommonCharacterFinder {
 
 	public static void main(String[] args) {
 		//Get the file
-		File file = new File("Day2/data/input.txt");
+		File file = new File("data/inputDay2.txt");
 		//ArrayList of strings to store input data
 		ArrayList<String> stringList = new ArrayList<String>();
 		try {
