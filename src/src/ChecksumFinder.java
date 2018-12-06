@@ -26,6 +26,7 @@ public class ChecksumFinder {
 		    		threes++;
 		    	}
 		    }
+		    br.close();
 		}
 		catch(Exception e) {
 			System.out.println(e.toString());

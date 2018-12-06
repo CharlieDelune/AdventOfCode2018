@@ -28,6 +28,7 @@ public class FabricSquares {
 		    	//Add rectangle into array
 		    	AddToArray(rect);
 		    }
+		    br.close();
 		}
 		catch(Exception e) {
 			System.out.println(e.toString());

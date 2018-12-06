@@ -10,7 +10,6 @@ public class FrequencyShifter {
 	public static void main(String[] args) {
 		//Instantiate variables
 		int freq = 0;
-		int loops = 0;
 		ArrayList<Integer> intList = new ArrayList<Integer>();
 		//Add 0 because the frequency begins on 0
 		intList.add(0);
@@ -38,6 +37,7 @@ public class FrequencyShifter {
 			    		intList.add(freq);
 			    	}
 			    }
+			    br.close();
 		    }
 		}
 		catch(Exception e) {

@@ -36,6 +36,7 @@ public class ChronalCoordinates {
 		    	}
 		    	
 		    }
+		    br.close();
 		}
 		catch(Exception e) {
 			System.out.println(e.toString());

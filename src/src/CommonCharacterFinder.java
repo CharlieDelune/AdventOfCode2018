@@ -19,6 +19,7 @@ public class CommonCharacterFinder {
 		    while ((line = br.readLine()) != null) {
 		    	stringList.add(line);
 		    }
+		    br.close();
 		}
 		catch(Exception e) {
 			System.out.println(e.toString());

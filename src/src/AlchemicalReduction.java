@@ -11,8 +11,6 @@ public class AlchemicalReduction {
 		File file = new File("data/inputDay5.txt");
 		char[] charArray = null;
 		StringBuilder sb = new StringBuilder();
-		//sbOriginal will be used for part 2
-		StringBuilder sbOriginal = new StringBuilder();
 		//This block reads the file input and stores each character
 		//in a character array, then puts the array into a string builder
 		try {
@@ -21,8 +19,7 @@ public class AlchemicalReduction {
 			line = br.readLine();
 			charArray = line.toCharArray();
 			sb.append(charArray);
-			//sbOriginal will be used in part 2
-			sbOriginal = sb;
+			br.close();
 		}
 		catch(Exception e) {
 			System.out.println(e.toString());
